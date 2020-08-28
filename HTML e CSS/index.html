@@ -3,38 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/estilo.css">
     <title>Estudos GX2</title>
 </head>
 <body>
-    <div class="formularioHome">
-        <H1>Digite seus dados:</H1>
-        <div class="box_1">
-            <form action="">
-                <label for="nome">Nome Completo:</label>
-                <input id="nome" name="nome" type="text" required>
-                <br>
-                <label for="nome">E-mail:</label>
-                <input id="nome" name="nome" type="text" required>
-                <br>
-                <label for="nome">Telefone:</label>
-                <input id="nome" name="nome" type="tel" required>
-                <br>
-                <label for="nome">Idade:</label>
-                <input id="nome" name="nome" type="number" required>
-                <br>
-                <label for="nome">Cidade:</label>
-                <input id="nome" name="nome" type="text" required>
-                <br>
-                <label for="nome">Bairro:</label>
-                <input id="nome" name="nome" type="text" required>
-                <br>
-                <label for="nome">Numero:</label>
-                <input id="nome" name="nome" type="number" required>
-                <br>
-                <input type="submit" id="botaoEnviar" value="Salvar">
-            </form>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/bikcraft.svg" alt="Bikcraft">
+            </a>
+            <nav class="grid-12 header_menu">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <section class="introducao">
+        <div class="container">
+            <h1>Bicicletas Feitas a Mão</h1>
+            <blockquote class="quote-externo">
+                <p>“não tenha nada em sua casa que você não considere útil ou acredita ser bonito”</p>
+                <cite>WILLIAM MORRIS</cite>
+            </blockquote>
+            <a href="produtos.html" class="btn">Orçamento</a>
+        </div>
+    </section>
+    
+    <section class="produtos container">
+        <h2 class="subtitulo">Produtos</h2>
+        <ul class="produtos_lista">
+
+            <li class="grid-1-3">
+                <div class="produtos_icone">
+                    <img src="img/produtos/passeio.svg" alt="Bikcraft Passeio">
+                </div>
+                <h3>Passeio</h3>
+                <p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação.</p>
+            </li>
+
+            <li class="grid-1-3">
+                <div class="produtos_icone">
+                    <img src="img/produtos/esporte.svg" alt="Bikcraft Passeio">
+                </div>
+                <h3>Esporte</h3>
+                <p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação.</p>
+            </li>
+
+            <li class="grid-1-3">
+                <div class="produtos_icone">
+                    <img src="img/produtos/retro.svg" alt="Bikcraft Passeio">
+                </div>
+                <h3>Retrô</h3>
+                <p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação.</p>
+            </li>
+
+        </ul>
+
+        <div class="call">
+            <p>clique aqui e veja os detalhes dos produtos</p>
+            <a href="produtos.html" class="btn btn-preto">Produtos</a>
+        </div>
+    </section>
 </body>
 </html>
