@@ -10,6 +10,7 @@ p {
 
 img {
 	display: block;
+	max-width: 100%;
 }
 
 .btn {
@@ -192,7 +193,8 @@ img {
 
 .produtos_lista li{
 	background: #fec63e;
-	text-align: center;
+	text-align
+	: center;
 }
 
 /* Necessário para centralizar as imagens */
