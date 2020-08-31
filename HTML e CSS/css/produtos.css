@@ -7,7 +7,8 @@
 	padding-top: 60px;
 }
 
-.produto_item h2{
+
+.produto_item h2 {
 	color: #fff;
 	font-size: 36px;
 	text-transform: uppercase;
@@ -26,6 +27,7 @@
 	height: 3px;
 	background: #fff;
 	margin: 6px auto 8px auto;
+	font-size: 36px;
 }
 
 .produto_icone {
@@ -157,7 +159,7 @@
 }
 
 .orcamento_dados ul {
-	padding-right: 60px
+	padding-right: 60px;
 }
 
 .orcamento_dados ul li {
